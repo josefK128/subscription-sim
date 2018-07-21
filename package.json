@@ -1,0 +1,23 @@
+{
+  "name": "btc_marketcap",
+  "version": "1.0.0",
+  "description": "simple oracle and usage with contract and client",
+  "main": "client.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fetch": "^1.1.0",
+    "truffle-contract": "^3.0.1",
+    "web3": "^0.20.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendricktan/ethoracle-barebones.git"
+  }
+}
