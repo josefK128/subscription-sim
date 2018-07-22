@@ -13,6 +13,7 @@ npm install
 start ganache
 truffle compile
 truffle migrate
+(truffle test)
 ```
 
 ##### Run simulated ETH/USD oracle (using BTCMarketcap from https://api.coinmarketcap.com) - when subscription is made oracle receives subscription.Registered event and simulates the start of a reminder service for current subscribers to renew their subscriptions

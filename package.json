@@ -1,7 +1,7 @@
 {
   "name": "btc_marketcap",
   "version": "1.0.0",
-  "description": "simple oracle and usage with contract and client",
+  "description": "simple oracle interaction with contract and client",
   "main": "client.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,10 @@
     "truffle-contract": "^3.0.1",
     "web3": "^0.20.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "truffle-assertions": "^0.3.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
